@@ -1,1 +1,1 @@
-# TypeScriptProTips
+All things TypeScript
