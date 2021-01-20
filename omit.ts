@@ -4,6 +4,6 @@ type OriginalType = {
   hasPowers: boolean;
 };
 
-type ModifiedType = Omit<OriginalType, "id"> & { ssid: number };
+type ModifiedType = Omit<OriginalType, "id" | "hasPowers"> & { ssid: number };
 
-const modifiedVar: ModifiedType = { ssid: 200, name: "james", hasPowers: true };
+const modifiedVar: ModifiedType = { ssid: 200, name: "james" };
